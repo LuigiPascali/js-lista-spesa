@@ -20,10 +20,10 @@
 // Array per la lista della spesa
 const shoppingList = [];
 
-// Selezion0 l'elemento del DOM in cui verrà visualizzata la lista della spesa
+// Seleziono l'elemento del DOM in cui verrà visualizzata la lista della spesa
 const shoppingListElement = document.getElementById("shopping-list");
 
-// Selezion0 il pulsante per l'aggiunta del prodotto
+// Seleziono il pulsante per l'aggiunta del prodotto
 const addProductBtn = document.getElementById("add-product-btn");
 
 // Aggiungo un event listener al pulsante per gestire l'aggiunta del prodotto
@@ -45,7 +45,7 @@ quantity = prompt("Inserisci la quantità da acquistare per " + product); // Pro
 
 // Controllo se il valore inserito per la quantità è un numero
 if (!isNaN(quantity) && quantity !== null && quantity !== "") {
-  quantity = parseInt(quantity); // Converti la quantità in un numero intero
+  quantity = parseFloat(quantity); // Converti la quantità in un numero intero
   break; // Esci dal ciclo while se la quantità è valida
 }
 // Mostra un alert se viene inserito un valore non numerico per la quantità
