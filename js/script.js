@@ -39,7 +39,7 @@ alert("Inserisci un testo, valori numerici non accettati!"); // Mostra un alert 
 return; // Interrompi l'esecuzione della funzione
 }
 
-  // Controllo se il prodotto è già presente nella lista
+// Controllo se il prodotto è già presente nella lista
 if (shoppingList.some((item) => item.product === product)) {
   alert("Il prodotto è già presente nella lista!");
   return;

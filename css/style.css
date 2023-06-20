@@ -1,3 +1,4 @@
 /* 
     MAIN
 */
+.card {background-color: var(--card_bg);background-image: linear-gradient(to bottom right, #f1e0c5, #ffffff);}
