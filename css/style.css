@@ -2,3 +2,7 @@
     MAIN
 */
 .card {background-color: var(--card_bg);background-image: linear-gradient(to bottom right, #f1e0c5, #ffffff);}
+
+#add-product-btn {background-color: var(--btn_color);color: var(--light_color);border: none;padding: .625rem 1.25rem;border-radius: .3125rem;cursor: pointer;}
+  
+#add-product-btn:hover {background-color: var(--btn_hover);}
